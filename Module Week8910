@@ -1,0 +1,112 @@
+package week7;
+
+public class module {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i=1; 
+		while (i<5)
+		{ System.out.print(i + ""); 
+		i++; } 
+		
+		int sum=0, number =1;
+		  while (number <= 10)
+		  {
+			sum+=number;
+			number = number + 5;
+			System.out.println("SUM :" + sum);
+		  }
+		  System.out.println("Good Bye");
+		  
+		  int j=0;
+			do{
+				System.out.print(j + "");
+				j++;
+			}while(j<=3);
+			
+			
+			int summ=0, nummber =2;
+			do{
+				summ+=nummber;
+				nummber = nummber + 5;
+		    System.out.println("SUM :" + summ);
+				} while (nummber <= 10);
+
+
+			for (i=1; i<5; i++)
+				  System.out.print(i);
+	//EXERCISE6		
+			int k;
+			for (k=1; k<3; k++){
+				System.out.println("YAHOO" + "");
+				System.out.println("***");
+			}
+
+	//EXERCISE7		
+			System.out.println("EXERCISE7\n");
+			int l;
+			for (l=1; l<=5; l++)
+				 System.out.println("YAHOO");
+				 System.out.println("***");
+				 
+	//EXERCISE8	
+				 System.out.println("EXERCISE8\n");
+		int num1, num2, num3;
+		for(num2 = 0; num2 <= 2; num2++) {
+		for(num1 = 0; num1 <= 1; num1++)	
+			/*for(num1 = 0; num1 <= 1; num1++){
+				System.out.println(num2 + " " + num1);*/
+				
+			for(num3=0;num3<=2; num3++) {
+				System.out.println(num2 + " " + num1 + " " + num3);
+				
+			}}
+				
+		
+	//EXERCISE1
+		System.out.println("EXERCISE1\n");
+		int choice=1, total=0; 
+		while (choice <4){ 
+			total = choice++; 
+			System.out.println(total);
+		}
+				
+	//Exercise2		
+		System.out.println("EXERCISE2\n");
+				for (int numbeer =2; numbeer <20; numbeer++)	
+				{
+					numbeer = numbeer *2;
+					if (numbeer <15)    //repeat here. output before+1 
+						System.out.println("Small number:" +numbeer);
+					else 
+						System.out.println("Big number:"+numbeer);
+				}
+
+				
+	//EXERCISE3
+				System.out.println("EXERCISE3\n");
+				int O=1; 
+				do  { 
+					if ((O %  2)==  0) 
+					System.out.println(O); O++; }  
+				while(O<5);
+				
+				
+	// m/s 30	
+				System.out.println("EXERCISE ms 30\n");
+				int s=1;
+				 do {	
+					   if ((s % 2)== 0)
+						System.out.println("Baki 0: " +s);
+					   else
+						   System.out.println("Baki selain dari 0: " + s);
+					   s++;
+				    } while(s<5);
+				 
+				 
+				 
+				 
+
+			}
+				}
